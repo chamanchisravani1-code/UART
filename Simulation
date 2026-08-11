@@ -1,0 +1,1 @@
+iverilog -o uart_sim src/uart_tx.v src/uart_rx.v src/uart_top.v tb/uart_tb.v
